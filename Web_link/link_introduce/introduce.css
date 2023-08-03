@@ -1,0 +1,137 @@
+body {
+  background-color: whitesmoke;
+}
+
+.callbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: gray;
+}
+
+.callbar li {
+  margin-right: 16px;
+}
+
+.callbar li a {
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #333;
+}
+
+.menu li {
+  margin-right: 16px;
+}
+
+.menu li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+.menu li.search-container {
+  margin-left: auto;
+}
+
+.menu li .search-container input[type="text"] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.menu li .search-container button {
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu li .search-container button:hover {
+  background: #ccc;
+}
+.title {
+  text-align: center;
+  font-family: "Calligraffitti", cursive;
+  font-size: 50px;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mota {
+  border: 10px solid #333;
+  border-radius: 100px;
+  padding: 10px 20px;
+}
+
+.motatitle {
+  font-family: "Calligraffitti", cursive;
+  font-size: 35px;
+  text-align: center;
+}
+
+.div-mota {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25px;
+  padding: 10px;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.container {
+  display: flex;
+  margin: 100px;
+}
+
+.box {
+  border: 10px solid #333;
+  border-radius: 100px;
+  flex: 1;
+  padding: 50px;
+}
+
+.webtitle {
+  text-align: center;
+  font-family: "Calligraffitti", cursive;
+  font-size: 35;
+}
+
+.devtitle {
+  text-align: center;
+  font-family: "Calligraffitti", cursive;
+  font-size: 35;
+}
+
+.box-text {
+  font-family: "Open Sans", sans-serif;
+  font-size: 25 px;
+}
