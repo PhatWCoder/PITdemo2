@@ -1,0 +1,100 @@
+body {
+  background-color: whitesmoke;
+}
+
+.callbar {
+  list-style-type: none;
+  margin: 0;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: gray;
+}
+
+.callbar li {
+  margin-right: 16px;
+}
+
+.callbar li a {
+  color: white;
+  font-size: 20;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.menu {
+  list-style-type: none;
+  margin: 0;
+  padding: 20px 100px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  background-color: #333;
+}
+
+.menu li {
+  margin-right: 16px;
+}
+
+.menu li a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+  padding: 14px 16px;
+}
+
+.menu li a:hover {
+  background-color: #111;
+}
+
+.menu li.search-container {
+  margin-left: auto;
+}
+
+.menu li .search-container input[type="text"] {
+  padding: 6px;
+  font-size: 17px;
+  border: none;
+  background: none;
+  color: white;
+}
+
+.menu li .search-container button {
+  padding: 6px 10px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.menu li .search-container button:hover {
+  background: #ccc;
+}
+
+.logo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.title {
+  font-family: "Calligraffitti", cursive;
+  text-align: center;
+  font-size: 50px;
+}
+
+.contact-card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  width: 40%;
+  padding: 10px;
+  border-radius: 5px;
+  margin: auto;
+  text-align: center;
+}
+
+.contact-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
